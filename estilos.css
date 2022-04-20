@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 135px;
+    background-color: rgba(255, 255, 255, 0.87);
+    backdrop-filter: blur(5px);
+}
+
+ul{
+   margin-left: auto; 
+   margin-right: 10%;
+}
+
+li{
+    position: relative;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-right: 40px;
+    
+    font-weight: 600;
+}
+
+li a{
+    text-decoration: none;
+    color: #748198;
+    font-size: 1.1em;
+}
+
+.hoax{
+    background-color: #2848c6;
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px -3px #2848c6b2;
+}
+
+.marca{
+    float: left;
+    text-decoration: none;
+    margin-top: 48px;
+    margin-left: 10%;
+    color: #193dcc;
+    font-size: 1.65em;
+    font-weight: 700;
+}
+
+.database{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+}
+
+.two-column{
+    display: flex;
+    justify-content: center;
+}
+
+.column-one{
+    height: 1000px;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 17%;
+}
+
+.column-one h1{
+    font-size: 3.7em;
+    color: #1f3e72;
+}
+
+.column-one h2{
+    font-size: 1.15em;
+    font-weight: 500;
+    color: #748198;
+}
+
+.column-one ul{
+    margin: 0;
+}
+
+.column-one li a{
+    color: #1f3e72;
+    font-size: .95em;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.column-one p{
+    margin-top: 150px;
+}
+
+.column-two{
+    background-image: url("home.jpg");
+    background-size: cover;
+    background-position: right;
+    width: 50%;
+    height: 1000px;
+}
+
+.schedule{
+    position: absolute;
+    margin-top: -11%;
+    display: flex;
+    margin-left: 160px;
+    width: 60%;
+    height: 16vh;
+    background-color: rgba(252, 252, 252, 0.959);
+    
+    box-shadow: 10px 25px 35px 5px rgba(113, 68, 185, 0.151);
+    border-radius: 7px;
+    backdrop-filter: blur(5px);
+}
+
+.info-schedule ul{
+    margin: 0;
+}
+
+.education{
+    width: 100%;
+    height: 900px;
+}
+
+.why{
+    margin-top: 110px;
+    margin-left: 10.5%;
+}
+
+.why h2{
+    font-size: 2.5em;
+    color: #1f3e72;
+}
+
+.why p{
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #748198;
+}
+
+.sponsor{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes img{
+    width: 230px;
+    margin: 30px;
+    margin-left: 43px;
+    margin-right: 43px;
+}
+
+.cards{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 275px;
+    height: 300px;
+    border: 2.7px solid #f1f4ff;
+    margin-left: 14px;
+    margin-right: 14px;
+    border-radius: 10px;
+    transition: .5s ease;
+    align-items: left;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    padding: 28px;
+    cursor: default;
+}
+
+.card .title-card {
+    font-size: 1.3em;
+    color: #1f3e72;
+    font-weight: 500;
+}
+
+.card p{
+    font-size: .9em;
+    font-weight: 500;
+    color: #748198;
+}
+
+.card:hover{
+    
+    box-shadow: 0px 20px 28px rgba(145, 77, 255, 0.13);
+    transition: .5s ease;
+    margin-top: -5px;
+    border: 2.7px solid #ffffff;
+}
+.news{
+    width: 100%;
+    height: 1000px;
+    margin-top: 70px;
+}
+
+.news .column-one{
+    height: 1000px;
+    max-width: 50%;
+    margin-left: 70px;
+    padding-top: 0%;
+}
+
+.news .column-one h1{
+    font-size: 2.5em;
+    color: #1f3e72;
+}
+
+.news .column-one h2{
+    font-size: 1.2em;
+    line-height: 35px;
+}
+
+.news .column-two{
+    background-image: url("man.png");
+    background-size: cover;
+    background-position: right;
+    width: 44%;
+    height: 850px;
+}
+
+.cards-vaccine{
+    width: 100%;
+    margin-top: 85px;
+}
+
+.card-vaccine{
+    width: 86%;
+    height: 65px;
+    border: 2px solid #fafaff;
+    border-radius: 10px;
+    transition: .5s ease;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    color: #1f3e72;
+    cursor: default;
+}
+
+.card-vaccine p{
+    margin: 0;
+    font-size: 1.15em;
+    font-weight: 500;
+    margin-left: 85px;
+}
+
+.card-vaccine:hover{
+    
+    box-shadow: 0px 20px 28px rgba(145, 77, 255, 0.13);
+    transition: .5s ease;
+    border: 2.7px solid #ffffff;
+}
+
+
+.card-vaccines{
+    width: 86%;
+    height: 155px;
+    border: 2px solid #fafaff;
+    border-radius: 10px;
+    transition: .5s ease;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    color: #1f3e72;
+    cursor: default;
+}
+
+.card-vaccines:hover{
+    box-shadow: 0px 20px 28px rgba(145, 77, 255, 0.13);
+    transition: .5s ease;
+    border: 2.7px solid #ffffff;
+}
+
+.card-vaccines p{
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-left: 85px;
+    line-height: 18px;
+    
+}
+
+.card-vaccines span{
+    font-size: .7em;
+    font-weight: 400;
+    color: #748198;
+}
+
+
+.contact{
+    width: 100%;
+    height: 1000px;
+    margin-top: 70px;
+}
+
+.contact .two-column{
+    margin-top: -3.5em;
+}
+
+.contact .column-one{
+    height: 1000px;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 0%;
+}
+
+.contact .column-one h1{
+    font-size: 2.5em;
+    color: #1f3e72;
+}
+
+.contact .column-one h2{
+    font-size: 1.2em;
+    line-height: 35px;
+    margin-bottom: 150px;
+}
+
+.contact .column-two{
+    background-image: url("doctor.png");
+    background-size: cover;
+    background-position: right;
+    width: 44%;
+    height: 850px;
+}
+
+.cards-contact{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-contact{
+    width: 260px;
+    height: 230px;
+    border: 2.7px solid #f1f4ff;
+    margin-left: 14px;
+    margin-right: 14px;
+    border-radius: 10px;
+    transition: .5s ease;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    cursor: default;
+    padding: 30px;
+}
+
+.card-contact .title-card {
+    font-size: 1.4em;
+    color: #1f3e72;
+    font-weight: 500;
+}
+
+
+.card-contact p{
+    font-size: .9em;
+    font-weight: 500;
+    color: #748198;
+    margin: 0;
+    padding: 0;
+}
+
+.card-contact:hover{
+    
+    box-shadow: 0px 20px 28px rgba(145, 77, 255, 0.13);
+    transition: .5s ease;
+    margin-top: -5px;
+    border: 2.7px solid #ffffff;
+}
+
+.card-contact button{
+    margin-top: 30px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f1f4ff;
+    color: #193dcc;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 20px;
+    transition: .5s ease;
+}
+
+.card-contact button:hover{
+    background-color: #193dcc;
+    color: white;
+    transition: .5s ease;
+}
+
+
+footer{
+    width: 100%;
+    height: 47vh;
+    background-color: #f1f4ff;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+}
+
+.footer ul{
+    margin: 0;
+}
+ 
+.footer li{
+     display: flex;
+     margin-top: 0px;
+     margin-right: 0px;
+     font-weight: 600;
+}
+ 
+.footer li a{
+     text-decoration: none;
+     color: #748198;
+     font-size: 1.1em;
+}
+
+.footer-links{
+    width: 55%;
+    padding-left: 10%;
+    padding-top: 4%;
+    color: #748198;
+    font-size: 1em;
+}
+
+.footer-links .title{
+    color:#193dcc;
+    font-size: 1.65em;
+    font-weight: 700;
+}
+
+.footer-links1{
+    width: 15%;
+    padding-top: 4%;
+}
+
+.footer-links1 p{
+    color: #1f3e72;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.footer-links1 ul li{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: .9em;
+}
+
+.footer-links2 p{
+    color: #1f3e72;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.footer-links2{
+    width: 15%;
+    padding-top: 4%;
+    margin-right: 1%;
+}
+
+.footer-links2 ul li{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: .9em;
+}
+
+.footer-links3 p{
+    color: #1f3e72;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.footer-links3 ul li{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: .9em;
+}
+
+.footer-links3{
+    width: 15%;
+    padding-top: 4%;
+    margin-right: 2%;
+}
+
+.footer-links4{
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-start;
+    
+}
+
+.footer-end{
+    display: flex;
+    justify-content: left;
+    align-items:flex-end;
+    width: 100%;
+    height: 15vh;
+    padding-left: 10%;
+}
